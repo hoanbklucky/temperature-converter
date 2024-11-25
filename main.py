@@ -9,11 +9,11 @@ import tkinter as tk
 window = tk.Tk()
 window.title("Convert Fahrenheit to Celsius")
 
+
 def convert():
     F_temp = float(F_temp_ent.get())
     C_temp = (F_temp - 32)*5/9
     C_temp_lbl["text"] = f"{C_temp:.1f}"
-
 
 
 # create entry and label for F temp
